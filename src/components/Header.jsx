@@ -188,8 +188,8 @@ const Header = () => {
             <NavLink to="/" $active={isActive('/')}>
               Home
             </NavLink>
-            <NavLink to="/projects" $active={isActive('/projects')}>
-              Projects
+            <NavLink to="/case-studies/apm-takehome" $active={isActive('/case-studies/apm-takehome')}>
+              APM Take-Home
             </NavLink>
             <NavLink to="/case-studies" $active={location.pathname.includes('/case-studies')}>
               Case Studies
